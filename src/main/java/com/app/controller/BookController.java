@@ -19,7 +19,7 @@ public class BookController {
 	@Autowired
 	private BookService bookService;
 	
-	ResponseEntity<?>addBook(@RequestBody BoookRequest b)
+	ResponseEntity<?> addBook(@RequestBody BoookRequest b)
 	{
 		try {
 			System.out.println(b.getAuthorName());

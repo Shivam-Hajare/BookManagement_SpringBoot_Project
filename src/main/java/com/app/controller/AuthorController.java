@@ -20,7 +20,7 @@ public class AuthorController {
 	private AuthorService authorService;
 	
 	@PostMapping
-	ResponseEntity<?>addAuthor(@RequestBody AuthorRequest a)
+	ResponseEntity<?> addAuthor(@RequestBody AuthorRequest a)
 	{
 		try {
 			System.out.println(a);
