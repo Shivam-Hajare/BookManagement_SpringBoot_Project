@@ -42,4 +42,9 @@ public class AuthorController {
 		return "hello world";
 	}
 	
+	@GetMapping("/temp")
+	String temp() {
+		return "temp api";
+	}
+	
 }
